@@ -1,10 +1,10 @@
 #![allow(unused)]
 
 fn main() {
-    let mut x = u32::MAX;
-    println!("x value is {x}");
-    x += 1;
-    println!("x value is {x}");
+    // let mut x = u32::MAX;
+    // println!("x value is {x}");
+    // x += 1;
+    // println!("x value is {x}");
 
     // u32::checked_add - return none on Overflows
     let x = u32::checked_add(u32::MAX, 1);
